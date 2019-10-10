@@ -1,0 +1,61 @@
+<style type="text/css">
+		body {
+			font-family:Geneva,Tahoma,sans-serif;
+			font-size:12px;
+			line-height:20px;
+			margin:0;
+		}
+		header{
+			display:flex;
+			justify-content: center;
+			color:silver;
+		}
+		.center {
+  			display: block;
+  			margin-left: auto;
+  			margin-right: auto;
+  			width: 50%;
+  			opacity: 0.75; 
+		}
+		nav {
+			display:flex; 
+			flex-direction:row;
+			justify-content:space-around;
+			border: 3px solid black;
+			width:100%;
+			background-color:rgb(128, 128, 128);
+			padding:10px;
+		}
+		a {
+			text-decoration:orange;
+			font-family:Helvetica,sans-serif;
+			font-weight:bold;
+			color:purple;
+			text-transform:uppercase;
+			margin-right:10px;
+			padding:10px;
+		}
+		a:hover {
+			border-bottom:3px solid white;
+		}
+		body {
+			background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpWi-ERlSXSt-nZdVUkE1REIO7JhKSfrzKdTSVvGPaXK0UkZwL);
+			background-size:100%;
+			background-position: fixed;
+		}
+		p {
+			color:white;
+			display: flex;
+			justify-content: center;
+		}
+		footer {
+			color:white;
+			display: flex;
+			justify-content: center;
+		}
+		.videos {
+			display: flex;
+			justify-content: center;
+
+		}
+</style>
